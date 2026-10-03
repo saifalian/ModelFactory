@@ -1,19 +1,22 @@
 # Model Factory
 
-Model Factory is a local AI training and automation workbench. It combines a Python backend, desktop automation helpers, computer-vision modules, training-loop logic, calibration utilities, and a Vite/React frontend.
+Model Factory is a local project for experimenting with AI models, computer vision, and desktop automation.
 
-The project appears designed for building, scoring, training, and monitoring models that learn from desktop/screen interactions.
+In simple words, this project is made to help build and test models that can learn from screen or desktop activity. It includes a Python backend, vision tools, training logic, monitoring code, and a React frontend.
 
-## Features
+This is a research-style project. It is useful for learning how model training, screen capture, scoring, and dashboards can work together.
 
-- Python desktop launcher and GUI
-- Backend API modules for models, macros, calibration, and training
-- Vision pipeline for screen capture, OCR, preprocessing, and goal matching
-- Training-loop and scoring components
-- Drift and overfitting monitors
-- Checkpoint management
-- React frontend dashboard
-- GPU dependency profile via `requirements_gpu.txt`
+## What This Project Can Do
+
+- Start from a Python desktop launcher.
+- Use backend modules for models, macros, calibration, and training.
+- Capture and process screen images.
+- Use OCR and goal-matching style vision tools.
+- Run training and scoring logic.
+- Monitor drift and overfitting.
+- Manage model checkpoints.
+- Use a React frontend dashboard.
+- Optionally review GPU dependencies in `requirements_gpu.txt`.
 
 ## Tech Stack
 
@@ -65,5 +68,6 @@ or use the included `start.bat` launcher.
 
 ## Notes
 
-Generated data, model checkpoints, exports, backups, and virtual environments are intentionally excluded from version control. Store large trained artifacts separately from the source repository.
+Generated data, trained model files, checkpoints, exports, backups, and virtual environments are not stored in Git.
 
+Keep large model files outside the source repository so the GitHub project stays clean and easy to download.
