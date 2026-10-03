@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #05080b; /* T.bg0 from the app */
+  color: #94a3b8; /* T.text */
+}
+
+::-webkit-scrollbar { 
+  width: 6px; 
+  height: 6px; 
+}
+::-webkit-scrollbar-track { 
+  background: #05080b; 
+}
+::-webkit-scrollbar-thumb { 
+  background: #1a2535; 
+  border-radius: 3px; 
+}
+::-webkit-scrollbar-thumb:hover { 
+  background: #243040; 
+}
+
+/* Animations that were strictly inlined in the jsx */
+@keyframes overlayPulse { 
+  0%,100%{opacity:1;} 
+  50%{opacity:0.3;} 
+}
+@keyframes overlayFlash { 
+  0%,100%{opacity:1;} 
+  50%{opacity:0;} 
+}

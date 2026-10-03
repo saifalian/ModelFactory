@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+tensorflow-cpu==2.15.0
+tensorflow-directml-plugin
+opencv-python
+mss
+pytesseract
+scikit-learn
+numpy
+pywin32
+pyautogui
+pynput
+requests
+python-multipart
+PyQt6
+PyQt6-WebEngine

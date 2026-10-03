@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+backend/venv_gpu/
+
+# Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+frontend/build/
+
+# Training/runtime data
+data/
+exports/
+backups/
+models/
+*.log
+*.sqlite
+*.db
+*.h5
+*.keras
+*.onnx
+*.pb
+*.npz
+*.npy
+
+# Local secrets/config
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+

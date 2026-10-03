@@ -1,0 +1,18 @@
+{
+    "coinglass_path": "C:\\Program Files\\Coinglass\\Coinglass.exe",
+    "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "ollama_enabled": false,
+    "ollama_model": "qwen3.5:0.8b",
+    "ollama_keep_alive": 0,
+    "auto_save_frequency": 10,
+    "max_attempts": 200,
+    "popup_wait_time": 0.7,
+    "attempt_timeout": 60,
+    "default_confidence_threshold": 0.65,
+    "backup_enabled": true,
+    "backup_location": "D:\\Backups\\ModelFactory\\",
+    "backup_schedule": "daily",
+    "backup_keep_last": 7,
+    "scheduler_enabled": false,
+    "drift_detection": true
+}
