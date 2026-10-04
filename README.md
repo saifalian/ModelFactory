@@ -1,73 +1,77 @@
 # Model Factory
 
-Model Factory is a local project for experimenting with AI models, computer vision, and desktop automation.
+![Model Factory preview](docs/screenshots/preview.svg)
 
-In simple words, this project is made to help build and test models that can learn from screen or desktop activity. It includes a Python backend, vision tools, training logic, monitoring code, and a React frontend.
+## Short Description
 
-This is a research-style project. It is useful for learning how model training, screen capture, scoring, and dashboards can work together.
+A local workbench for model experiments, computer vision, training, and dashboards.
 
-## What This Project Can Do
+## About This Project
 
-- Start from a Python desktop launcher.
-- Use backend modules for models, macros, calibration, and training.
-- Capture and process screen images.
-- Use OCR and goal-matching style vision tools.
-- Run training and scoring logic.
-- Monitor drift and overfitting.
-- Manage model checkpoints.
-- Use a React frontend dashboard.
-- Optionally review GPU dependencies in `requirements_gpu.txt`.
+Model Factory is a local AI experimentation project. It combines a Python backend, computer vision modules, calibration tools, model/training logic, monitoring tools, checkpoints, and a React frontend.
+
+The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
+
+## Main Features
+
+- Python launcher and backend modules
+- Vision tools for screen/image work
+- Training and scoring logic
+- Calibration and monitoring tools
+- Checkpoint and model management
+- React/Vite frontend dashboard
+- Optional GPU dependency path
 
 ## Tech Stack
 
 - Python
-- FastAPI-style backend modules
-- React + Vite frontend
-- Computer vision and OCR utilities
-- Local JSON settings
-- Optional GPU/DirectML-oriented dependencies
+- React
+- Vite
+- Computer vision
+- Training loops
 
-## Project Layout
+## Project Location
+
+Main local folder:
 
 ```text
-backend/
-├── api/
-├── core/
-├── database/
-├── desktop/
-└── vision/
-frontend/
-├── src/
-└── package.json
-gui.py
-desktop.py
-settings.json
-requirements.txt
-requirements_gpu.txt
+D:\PROJECTS\ModelFactory
 ```
 
-## Setup
+GitHub repository:
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-cd frontend
-npm install
+https://github.com/saifalian/ModelFactory
+
+## Project Structure
+
+```text
+backend/       Backend, core logic, database, desktop, and vision modules
+frontend/      React/Vite frontend
+files/         Extra prompts and UI files
+gui.py         Main GUI launcher
+settings.json  Local settings
 ```
 
-For GPU experiments, review `requirements_gpu.txt` first and install only in a compatible environment.
+## How To Run
 
-## Run
+1. Create a Python virtual environment.
+2. Install requirements.txt.
+3. For frontend work, run npm install inside frontend.
+4. Run python gui.py or use start.bat.
+5. Keep large model files outside Git.
 
-```powershell
-python gui.py
-```
+## Screenshot
 
-or use the included `start.bat` launcher.
+The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
-## Notes
+## Current Status
 
-Generated data, trained model files, checkpoints, exports, backups, and virtual environments are not stored in Git.
+This project is uploaded to GitHub and prepared as a portfolio-style repository. More improvements can be added later, such as real app screenshots, demo videos, releases, and issue templates.
 
-Keep large model files outside the source repository so the GitHub project stays clean and easy to download.
+## Safety Note
+
+This is a local experiment workbench. Review generated model outputs before using them anywhere important.
+
+## License
+
+No license file is included yet. Add a license before using this project as an open-source project.
