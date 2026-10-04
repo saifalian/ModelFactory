@@ -1,6 +1,5 @@
 # Model Factory
 
-![Model Factory preview](docs/screenshots/preview.svg)
 
 ## Short Description
 
@@ -25,10 +24,6 @@ The goal is to keep the project easy to understand, easy to run, and useful for 
 ### Real ModelFactory dashboard
 
 ![Real ModelFactory dashboard](docs/screenshots/real-dashboard.png)
-
-### Project preview
-
-![Project preview](docs/screenshots/preview.svg)
 
 ## Main Features
 
