@@ -64,6 +64,10 @@ settings.json  Local settings
 
 The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
 
+## Build Check
+
+Build check: the React/Vite frontend was tested with npm run build and completed successfully.
+
 ## Current Status
 
 This project is uploaded to GitHub and prepared as a portfolio-style repository. More improvements can be added later, such as real app screenshots, demo videos, releases, and issue templates.
