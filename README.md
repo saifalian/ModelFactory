@@ -12,6 +12,24 @@ Model Factory is a local AI experimentation project. It combines a Python backen
 
 The goal is to keep the project easy to understand, easy to run, and useful for learning or further development.
 
+## Purpose And Idea
+
+**Purpose:** The purpose of this project is to create a local workbench for AI/model experiments, computer vision, training logic, monitoring, and dashboards.
+
+**Idea:** The idea is to connect model training, screen/image understanding, checkpoints, metrics, and a frontend dashboard in one local system.
+
+**Why I made it:** I made this to learn how model workflows are managed, tested, monitored, and displayed in a practical app.
+
+## Screenshots
+
+### Real ModelFactory dashboard
+
+![Real ModelFactory dashboard](docs/screenshots/real-dashboard.png)
+
+### Project preview
+
+![Project preview](docs/screenshots/preview.svg)
+
 ## Main Features
 
 - Python launcher and backend modules
@@ -59,14 +77,6 @@ settings.json  Local settings
 3. For frontend work, run npm install inside frontend.
 4. Run python gui.py or use start.bat.
 5. Keep large model files outside Git.
-
-## Screenshot
-
-The image above is a clean project preview for GitHub. It shows the main idea of the project in a simple way.
-
-## Build Check
-
-Build check: the React/Vite frontend was tested with npm run build and completed successfully.
 
 ## Current Status
 
